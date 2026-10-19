@@ -148,3 +148,75 @@
   font-size: 16px;
   color: #000000;  
 }
+.clothesTwo{
+    max-width: 1500px;
+    width: 100%;
+    height: 930px;
+}
+.shopText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ShopTextOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.ShopTextOne h2{
+   font-weight: 400px;
+   font-size: 26px;
+   color: #000000;
+}
+.ShopTextOne p{
+   font-weight: 400px;
+   font-size: 16px;
+   color: #000000;
+}
+.ShopTextOne button{
+   width: 225px;
+   height: 50px;
+   font-weight: 400px;
+   font-size: 26px;
+   background-color: #000000;
+   color: #FFFFFF;
+
+}
+.imgAndText{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.shopImgOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shopImgOne img{
+   width: 470px;
+   height: 705px;
+}
+.shopImgOne p{
+   font-weight: 400px;
+   font-size: 16px;
+   color: #000000; 
+}
+.shopImgOne span{
+   font-weight: 400px;
+   font-size: 16px;
+   color: #000000; 
+}
+.shopImgTwo{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.shopImgTwo img{
+   width: 470px;
+   height: 705px;
+}
