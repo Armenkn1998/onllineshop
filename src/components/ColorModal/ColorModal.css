@@ -1,0 +1,133 @@
+
+.color-filter {
+  position: relative;
+}
+
+.color-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.color-modal {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  padding: 24px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+}
+
+.color-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 14px;
+}
+
+.color-header h2 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.color-close {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.color-options {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  padding: 25px 0 15px;
+}
+
+.color-option {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.color-option.selected {
+  outline: 2px solid #111;
+  outline-offset: 3px;
+}
+
+.color-check {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.color-check.dark {
+  color: #111;
+}
+
+.color-selected {
+  min-height: 20px;
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0 20px;
+}
+
+.color-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 18px;
+}
+
+.color-clear,
+.color-apply {
+  min-height: 44px;
+  padding: 0 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.color-clear {
+  background: white;
+  border: 1px solid #222;
+  color: #222;
+}
+
+.color-apply {
+  flex: 1;
+  background: #111;
+  color: white;
+  border: 1px solid #111;
+}
+
+.color-clear:hover {
+  background: #f3f3f3;
+}
+
+.color-apply:hover {
+  background: #333;
+}
+
+@media (max-width: 400px) {
+  .color-modal {
+    padding: 18px;
+  }
+
+  .color-options {
+    gap: 11px;
+  }
+}

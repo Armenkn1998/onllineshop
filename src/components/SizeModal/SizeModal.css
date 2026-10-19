@@ -1,0 +1,42 @@
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.size-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 320px;
+  max-width: calc(100% - 40px);
+  text-align: center;
+}
+
+.sizes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.sizes button {
+  padding: 12px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.sizes button.active {
+  background: black;
+  color: white;
+}
+
+.size-modal button {
+  cursor: pointer;
+}

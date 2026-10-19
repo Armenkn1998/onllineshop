@@ -9,6 +9,11 @@
 .catalog-heading {
   text-align: center;
   margin-bottom: 35px;
+  color: black;
+}
+
+.sortbymodel {
+  padding-right: 10px;
 }
 
 .catalog-subtitle {
@@ -28,12 +33,26 @@
   font-size: 14px;
 }
 
+.catalog-description h1 {
+  color: black;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
 .catalog-filters {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 35px;
+  border: none;
+  padding-right: 507px;
+  margin-right: 160px;
 }
 
 .filter-button {
@@ -44,12 +63,7 @@
   font-size: 13px;
 }
 
-.filter-button.active,
-.filter-button:hover {
-  background: #242424;
-  color: white;
-  border-color: #242424;
-}
+
 
 .product-grid {
   display: grid;
@@ -122,6 +136,24 @@
 .add-to-cart:hover {
   background: white;
   color: #242424;
+}
+
+.load-more-btn {
+  display: block;
+  width: 220px;
+  height: 50px;
+  margin: 40px auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #333;
 }
 
 @media (max-width: 700px) {
