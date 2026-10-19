@@ -1,12 +1,17 @@
 import React from 'react'
 import './Home.css'
+import img1 from "./img/img1.png";
+import img2 from "./img/img2.png";
+import img3 from "./img/img1.png";
+import img4 from "./img/img2.png";
+
 export default function Home() {
   return (
     <div >
        <section className='clothesBox'>
             <div className='clothesItem'>
                 <div className='clothesImg'>
-                   <img src="/img/img1.png" alt="" />
+                   <img src="img1.png" alt="" />
                 </div>
                 <div className='clothesText'>
                    <h2>NEW collections</h2>
