@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clothesBox {
+    max-width: 1500px;
+    width: 100%;
+    height: 930px;
+}
+
+.clothesItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.clothesImg img {
+    width: 1460;
+    height: 930;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(1);
+}
+
+.clothesText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.clothesText h2 {
+    font-weight: 600px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.clothesText p {
+    font-weight: 400px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.clothesText button {
+    width: 250px;
+    height: 50px;
+    background-color: #000000;
+    font-weight: 400px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.clothesOne {
+    max-width: 1500px;
+    width: 100%;
+    height: 930px;
+}
+
+.clothes-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clothes-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.textOne p {
+    font-weight: 400px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.clothes-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgOne img{
+    width: 470px;
+   height: 705px; 
+}
+.imgOne p{
+  font-weight: 400px;
+  font-size: 16px; 
+  color: #000000; 
+}
+.imgOne span{
+  font-weight: 400px;
+  font-size: 16px; 
+  color: #000000; 
+}
+.imgTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgTwo img{
+    width: 470px;
+   height: 705px; 
+}
+.imgTwo p{
+  font-weight: 400px;
+  font-size: 16px; 
+  color: #000000; 
+}
+.imgTwo span{
+  font-weight: 400px;
+  font-size: 16px; 
+  color: #000000; 
+}
+.imgThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgThree img{
+    width: 470px;
+   height: 705px; 
+}
+.imgThree p{
+  font-weight: 400px;
+  font-size: 16px;
+  color: #000000; 
+}
+.imgThree span{
+  font-weight: 400px;
+  font-size: 16px;
+  color: #000000;  
+}
