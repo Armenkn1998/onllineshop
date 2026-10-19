@@ -23,7 +23,7 @@ export default function Header() {
             <img className="search-img" src="/images/search.png" alt="" />
           </div>
          <Link to="/home" className="sign-in">sign in</Link>
-         <Link to="/catalog" className="catalog"></Link>
+         <Link to="/catalog" className="catalogHead">Catalog</Link>
       
             <Link to="/product" className="cart">Cart 0</Link>
         </div>

@@ -4,11 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 20px;
 }
 .product-card{
     margin-bottom: 50px;
     width: 100%;
-    max-width: 1620px;
+    max-width: 1460px;
     display: flex;
     flex-direction: column;
 }
@@ -438,27 +439,25 @@ vertical-align: middle;
 
 }
  .grenimg h2{
-    width: 285;
-height: 19;
-top: 1853px;
-left: 72px;
+    width: 285px;
+height: 19px;
+
 opacity: 1;
 font-family: Work Sans;
 font-weight: 400;
-font-style: Regular;
 font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
-vertical-align: middle;
  }
 .color-box4{
   display: flex;
   gap: 5px;
 }
 .four-img{
+  width: 100%;
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 20px;
 }
 .prev-next{
   display: flex;
@@ -475,7 +474,7 @@ vertical-align: middle;
 .two,
 .there,
 .for{
-  width: 400px;
+  width: 350px;
   height: 520px;
 }
 .onee h2,
