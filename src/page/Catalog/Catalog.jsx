@@ -17,7 +17,7 @@ import dress9 from "../../images/a31851b3354334a0bbccc914f6c1472dd7415136.png"
 import dress10 from "../../images/b73b96f68bad51fbb331bf7ec3b737eeec12c453.png"
 import dress11 from "../../images/c00c353a4462d9f95f34da92157825b8368b1bc0.png"
 import dress12 from "../../images/c5778151d5142f61b9ccce32283f8ce476864b08.png"
-import BrowseByModel from "../../components/BrowsebyModel/BrowsebyModel";
+import BrowseByModel from "../../components/BrowsebyModel/BrowsebyModel.jsx";
 
 const dresses = [
   {
